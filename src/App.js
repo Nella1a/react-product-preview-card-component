@@ -4,12 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <div>
         image
       </div>
       <article>
-        <h1>Preview</h1>
+        <h1 className="text-3xl font-bold underline">Preview</h1>
         <h2>Gabrielle Essence Eau De Parfum</h2>
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
