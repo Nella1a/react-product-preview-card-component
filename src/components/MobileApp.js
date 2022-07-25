@@ -1,15 +1,13 @@
-import './App.css';
+//import './App.css';
 import React from 'react';
 
-// import logo from './logo.svg';
-
-function App() {
+function MobileApp() {
   return (
-    <div className="w-[42rem] flex flex-col border-8">
-      <div className="bg-desktop-image bg-left-top bg-cover h-[35rem] w-[30rem]" />
-
-
-      <article className="bg-white w-[30rem] flex flex-col justify-around p-10 gap-6 rounded-r-xl">
+    <div className="w-192 flex">
+      <div  >
+        <img src="/image-product-desktop.jpg" alt="chanel, bottle of parfume" className='w-96 rounded-l-xl'/>
+      </div>
+      <article className="bg-white w-96 flex flex-col justify-around p-10 gap-6 rounded-r-xl">
 
           <h1 className="tracking-widest uppercase font-medium text-lg w-80">Perfume</h1>
           <h2 className="text-[#1c232b] font-fraunces text-5xl">Gabrielle Essence Eau De Parfum</h2>
@@ -31,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default MobileApp;
