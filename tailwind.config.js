@@ -10,13 +10,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'desktop-image': "url('./images/image-product-desktop.jpg')",
-        'mobile-image': "url('/image-product-mobile.jpg')",
+        'desktopImage': "url('./images/image-product-desktop.jpg')",
+        'mobileImage': "url('./images/image-product-mobile.jpg')",
       }
     },
-      fontFamily: {
-        fraunces: ['Fraunces', "serif"],
-        montserrat: ['Montserrat',"sans-serif"]
+    fontFamily: {
+      fraunces: ['Fraunces', "serif"],
+      montserrat: ['Montserrat',"sans-serif"]
     },
   },
   plugins: [],
