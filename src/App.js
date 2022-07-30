@@ -26,8 +26,6 @@ function App() {
                 <img src="/icon-cart.svg" alt="cart icon" className="w-fit" />
               </span> Add to Cart
           </button>
-
-
         </article>
     </div>
   );

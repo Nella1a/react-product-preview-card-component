@@ -2031,6 +2031,13 @@
     "@types/mime" "*"
     "@types/node" "*"
 
+"@types/sharp@^0.30.4":
+  version "0.30.4"
+  resolved "https://registry.yarnpkg.com/@types/sharp/-/sharp-0.30.4.tgz#7430b5fcf37f35dd860112c4cf6dcd6a1ba0011b"
+  integrity sha512-6oJEzKt7wZeS7e+6x9QFEOWGs0T/6of00+0onZGN1zSmcSjcTDZKgIGZ6YWJnHowpaKUCFBPH52mYljWqU32Eg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/sockjs@^0.3.33":
   version "0.3.33"
   resolved "https://registry.yarnpkg.com/@types/sockjs/-/sockjs-0.3.33.tgz#570d3a0b99ac995360e3136fd6045113b1bd236f"
@@ -2043,7 +2050,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/testing-library__jest-dom@^5.9.1":
+"@types/testing-library__jest-dom@^5.14.5", "@types/testing-library__jest-dom@^5.9.1":
   version "5.14.5"
   resolved "https://registry.yarnpkg.com/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.5.tgz#d113709c90b3c75fdb127ec338dad7d5f86c974f"
   integrity sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==
@@ -2161,10 +2168,10 @@
     "@typescript-eslint/types" "5.30.7"
     eslint-visitor-keys "^3.3.0"
 
-"@upleveled/eslint-config-upleveled@2.12.3":
-  version "2.12.3"
-  resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-2.12.3.tgz#9c6971c445e659de29cecae29be7fac3e0227fcd"
-  integrity sha512-+PjCQ40wSwPBk6JUXwqTZHPbSoss+b1vycou0ySHAKZHuwna9K21Kf4ohzVsqS9s3DmFBRTTwbL8r2APnqccBg==
+"@upleveled/eslint-config-upleveled@2.12.4":
+  version "2.12.4"
+  resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-2.12.4.tgz#e386d7b181550cafa4c04581418b90ad22e15a57"
+  integrity sha512-AwfvoDiF5zP5n3bRSXM1XKJvgVA03yl1nzimxYC9SftCMfjn8GDKc8ZYeqzcW47j5WBHZRQ96fDuP38qACzjBQ==
 
 "@upleveled/eslint-plugin-upleveled@2.1.5":
   version "2.1.5"
